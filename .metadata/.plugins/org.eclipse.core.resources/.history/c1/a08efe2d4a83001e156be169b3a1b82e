@@ -1,0 +1,33 @@
+package stepDefinition;
+
+import org.testng.Assert;
+
+import io.cucumber.java.en.*;
+import pageObjects.HomePage;
+
+public class Home_SD {
+	
+	public Webdriver driver;
+	//HomePage home = new HomePage();
+	
+	
+	@Given("The user opens DS Algo portal link")
+	public void the_user_opens_ds_algo_portal_link() {
+		
+	   home.dsalgopage();
+	}
+
+	@When("The user clicks the {string} button")
+	public void the_user_clicks_the_button(String string) {
+	   home.getStarted_link(string);
+	}
+
+	@Then("The user should be redirected to the home page")
+	public void the_user_should_be_redirected_to_the_home_page() {
+		String Title = home.getPageTitle();
+		Assert.assertEquals(Title, "NumpyNinja");
+
+	}
+
+
+}

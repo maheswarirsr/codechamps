@@ -1,0 +1,40 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage {
+	
+	public WebDriver driver;
+	String url = "https://dsportalapp.herokuapp.com";
+	String homeurl ="https://dsportalapp.herokuapp.com/home";
+	
+	//Dsalgo page
+	@FindBy (xpath="//a[@href='/home']")WebElement getstart_link;
+	@FindBy (xpath="//button[@class='btn']")WebElement getstart;
+	
+	//alert 
+	@FindBy (xpath="//*[@class='alert alert-primary']")WebElement alert_msg;
+	
+	public void dsalgopage() {
+		driver.get(url);
+	}
+	public void homepage() {
+		driver.get(homeurl);
+	}
+	
+	public void getStarted_link(String str) {
+		 getstart_link.click();
+	}
+	
+	public String getPageTitle() {
+		String title=driver.getTitle();
+		return title;
+	}
+	public String alert() {
+		String msg=alert_msg.getText();
+		return msg;
+	}
+
+}

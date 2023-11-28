@@ -1,0 +1,85 @@
+package stepDefinition;
+
+import org.testng.Assert;
+
+import io.cucumber.java.en.*;
+import pageObjects.HomePage;
+
+public class Home_SD {
+	
+	
+	HomePage home = new HomePage();
+	
+	
+	@Given("The user opens DS Algo portal link")
+	public void the_user_opens_ds_algo_portal_link() {
+		
+	   home.dsalgopage();
+	}
+
+	@When("The user clicks the {string} button")
+	public void the_user_clicks_the_button(String string) {
+	   home.getStarted_link(string);
+	}
+
+	@Then("The user should be redirected to the home page")
+	public void the_user_should_be_redirected_to_the_home_page() {
+		String Title = home.getPageTitle();
+		Assert.assertEquals(Title, "NumpyNinja");
+
+	}
+	@Given("The user is on home page")
+	public void the_user_is_on_home_page() {
+	   home.homepage();
+	}
+
+	@When("The user clicks on Get Started link on homepage {string} without login")
+	public void the_user_clicks_on_get_started_link_on_homepage_without_login(String string) {
+	    home.getStarted_link(string);
+	}
+
+	@Then("The user get warning message {string}")
+	public void the_user_get_warning_message(String string) {
+	    String alt=home.alert();
+	    Assert.assertEquals(string, alt);
+	}
+	@Given("The user is on DS Algo home page")
+	public void the_user_is_on_ds_algo_home_page() {
+	    
+	}
+
+	@When("The user clicks on dropdown {string} without login")
+	public void the_user_clicks_on_dropdown_without_login(String string) {
+	    
+	}
+
+	@Given("The user opens Home Page")
+	public void the_user_opens_home_page() {
+	    
+	}
+
+	@When("The user clicks Sign in link")
+	public void the_user_clicks_sign_in_link() {
+	   
+	}
+
+	@Then("The user should be redirected to Sign in page")
+	public void the_user_should_be_redirected_to_sign_in_page() {
+	    
+	}
+
+	@When("The user clicks Register link")
+	public void the_user_clicks_register_link() {
+	    
+	}
+
+	@Then("The user should be redirected to Register form")
+	public void the_user_should_be_redirected_to_register_form() {
+	   
+	}
+	
+	
+    
+
+
+}

@@ -1,0 +1,8 @@
+@DSAlgo1
+Feature: User launch the dsalgo portal link and test the home page
+
+  @TC_HomePage_01
+  Scenario: User launch home page of an dsalgo project
+    Given The user opens DS Algo portal link
+    When The user clicks the "Get Started" button
+    Then The user should be redirected to the home page

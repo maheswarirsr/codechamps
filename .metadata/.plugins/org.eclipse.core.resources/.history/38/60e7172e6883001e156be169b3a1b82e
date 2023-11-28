@@ -1,0 +1,129 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePage {
+	
+	public WebDriver driver;
+	//driver = new ChromeDriver();
+	String url = "https://dsportalapp.herokuapp.com";
+	String homeurl ="https://dsportalapp.herokuapp.com/home";
+	
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	//Dsalgo page
+	@FindBy (xpath="//a[@href='/home']")WebElement getstart_link;
+	@FindBy (xpath="//button[@class='btn']")WebElement getstart;
+	
+	//alert 
+	@FindBy (xpath="//*[@class='alert alert-primary']")WebElement alert_msg;
+	
+	//Home page
+	@FindBy (xpath="//a[@href='data-structures-introduction']")WebElement getstart_datastructure;
+	@FindBy (xpath="//a[@href='array']")WebElement getstart_array;
+	@FindBy (xpath="//a[@href='linked-list']")WebElement getstart_linkedlist;
+	@FindBy (xpath="//a[@href='stack']")WebElement getstart_stack;
+	@FindBy (xpath="//a[@href='queue']")WebElement getstart_queue;
+	@FindBy (xpath="//a[@href='tree']")WebElement getstart_tree;
+	@FindBy (xpath="//a[@href='graph']")WebElement getstart_graph;
+	
+	//Home page drop down
+	@FindBy(xpath="//a[@class='nav-link dropdown-toggle']")WebElement dropdown;
+	@FindBy (xpath="//a[normalize-space()='Arrays']")WebElement dropdown_array;
+	@FindBy (xpath="//a[normalize-space()='Linked List']")WebElement dropdown_linkedlist;
+	@FindBy (xpath="//a[normalize-space()='Stack']")WebElement dropdown_stack;
+	@FindBy (xpath="//a[normalize-space()='Queue']")WebElement dropdown_queue;
+	@FindBy (xpath="//a[normalize-space()='Tree']")WebElement dropdown_tree;
+	@FindBy (xpath="//a[normalize-space()='Graph']")WebElement dropdown_graph;
+	
+	@FindBy (xpath="//a[normalize-space()='Register']")WebElement register;
+	@FindBy (xpath="//a[normalize-space()='Sign in']")WebElement signin; 
+	
+	
+	public void getStarted_home(String str) {
+		switch(str) {
+		case "Datastructures":
+			getstart_datastructure.click();
+			break;
+		case "Arrays":
+			getstart_array.click();
+			break;
+		case "Linked List":
+			getstart_linkedlist.click();
+			break;
+		case "Stack":
+			getstart_stack.click();
+			break;
+		case "Queue":
+			getstart_queue.click();
+			break;
+		case "Tree":
+			getstart_tree.click();
+			break;
+		case "Graph":
+			getstart_graph.click();
+			break;
+		}
+		
+	}
+	
+	public void dropdown(String str) {
+		switch(str) {
+		
+		case "Arrays":
+			dropdown_array.click();
+			break;
+		case "Linked List":
+			dropdown_linkedlist.click();
+			break;
+		case "Stack":
+			dropdown_stack.click();
+			break;
+		case "Queue":
+			dropdown_queue.click();
+			break;
+		case "Tree":
+			dropdown_tree.click();
+			break;
+		case "Graph":
+			dropdown_graph.click();
+			break;
+		}
+		
+	}
+	
+	public void dsalgopage() {
+		driver = new ChromeDriver();
+		driver.get(url);
+	}
+	public void homepage() {
+		driver = new ChromeDriver();
+		driver.get(homeurl);
+	}
+	
+	public void getStarted_link(String str) {
+		 getstart_link.click();
+	}
+	
+	public String getPageTitle() {
+		String title=driver.getTitle();
+		return title;
+	}
+	public String alert() {
+		String msg=alert_msg.getText();
+		return msg;
+	}
+	public void signin_link() {
+		signin.click();
+	}
+	public void register_link() {
+		register.click();
+	}
+
+}

@@ -1,0 +1,23 @@
+package stepDefinition;
+
+import io.cucumber.java.en.*;
+
+public class Home_SD {
+	
+	@Given("The user opens DS Algo portal link")
+	public void the_user_opens_ds_algo_portal_link() {
+	   
+	}
+
+	@When("The user clicks the {string} button")
+	public void the_user_clicks_the_button(String string) {
+	   
+	}
+
+	@Then("The user should be redirected to the home page")
+	public void the_user_should_be_redirected_to_the_home_page() {
+	   
+	}
+
+
+}
