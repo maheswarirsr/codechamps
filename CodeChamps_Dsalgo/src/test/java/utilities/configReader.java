@@ -76,11 +76,18 @@ public class configReader {
 			throw new RuntimeException("xlfilepath not specified in the Configuration.properties file.");
 	}
 	public static String getUrl(String pagename) {		
-		if(pagename == "Data Structures-Introduction" || pagename == "Time Complexity")
-			return properties.getProperty(pagename);
-		else
+		String pageUrl = properties.getProperty(pagename);
+		if(pageUrl == null || pageUrl.isEmpty())
 			throw new RuntimeException( pagename + "url not specified in the Configuration.properties file.");
+		return pageUrl;
 	}
 	
-	
+	public static String getUrl() {
+		String treeurl=properties.getProperty("tree");
+		if(treeurl != null)
+			return treeurl;
+		else
+			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");
+		
+	}
 }

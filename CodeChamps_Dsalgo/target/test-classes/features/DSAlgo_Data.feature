@@ -1,8 +1,7 @@
 @data_structure
 Feature: Validating DataStructure Page
 
-  @TS_DataStructure
-  Scenario Outline: The user is navigate to DS introduction page
+  Scenario: The user is navigate to DS introduction page
     Given The user is on login page
     When The user enter "Numpy" and "testuser01"
     Then The user should be redirected to home page as "Numpy"
@@ -12,10 +11,14 @@ Feature: Validating DataStructure Page
     Then The user redirected to "Time Complexity" page
     When The user click Try here button
     Then The user redirected to "Assessment" page
-    When The user enter the sheet "<sheetname>" and <rownumber>
+
+  Scenario Outline: The user submits python code  	
+    When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
+    Then The user should see the expected output
 
     Examples: 
       | sheetname | rownumber |
       | Sheet2    |         0 |
       | Sheet2    |         1 |
+      
