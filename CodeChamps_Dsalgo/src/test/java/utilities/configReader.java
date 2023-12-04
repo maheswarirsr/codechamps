@@ -90,5 +90,15 @@ public class configReader {
 			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");
 		
 	}
+<<<<<<< HEAD
 	
+=======
+	public static String getLinkUrl() {
+		String linkurl=properties.getProperty("linkedlist");
+		if(linkurl != null)
+			return linkurl;
+		else
+			throw new RuntimeException("linkurl not specified in the Configuration.properties file.");
+	}
+>>>>>>> 217f887e66efc0138209bc3c39d6d84a12ad220e
 }
