@@ -19,12 +19,13 @@ import utilities.configReader;
 public class DataStructure_SD {
 	
 	DataStructurePage ds = new DataStructurePage();	
-	String xlpath=configReader.getexcelfilepath();
-	 
-	
+	String xlpath=configReader.getexcelfilepath();	
+	String expectedResult;	
+	String elementToCheck;
 	
 	@When("The user click get started")
 	public void the_user_click_get_started() {
+		 
          ds.getStartBtn();
 	}
 
@@ -44,19 +45,35 @@ public class DataStructure_SD {
 	   ds.clickTryHere();
 	}
 	
-	@When("The user enter the sheet {string} and {int}")
-	public void the_user_enter_the_sheet_and(String sheetname, Integer rownumber) throws IOException {
+	@When("The user enter the python code from sheet {string} and {int}")
+	public void the_user_enter_the_sheet_and(String sheetname, Integer rownumber) throws IOException, InterruptedException {
 		ExcelReader reader = new ExcelReader();
-	    List<Map<String, String>> data = reader.getData(xlpath, sheetname);
-	    @SuppressWarnings("unused")
-		String python = data.get(rownumber).get("pythonCode");
-	    String result = data.get(rownumber).get("Result");
-	    Assert.assertTrue(result, true);
+		List<Map<String, String>> code  = reader.getData(xlpath, sheetname);
+	     
+	    String python = code.get(rownumber).get("pythonCode");	
+	    expectedResult = code.get(rownumber).get("Result");
+	    elementToCheck = code.get(rownumber).get("Element");
+	    LoggerLoad.info("EXPECTED:" + expectedResult);
+	    
+	    if(python != null) {
+	    	 ds.refreshPage();
+	         ds.entercode(python);	         
+	    }
 	}
 
-	@When("The user click run button")
+	@And("The user click run button")
 	public void the_user_click_run_button() {
 	   ds.clickRun();
+	}
+	
+	@Then("The user should see the expected output")
+	public void the_user_should_see_the_expected_output() {
+		String actualOutput = ds.getOutput(elementToCheck);		
+		LoggerLoad.info("ACTUAL:" + actualOutput);
+		Assert.assertEquals(expectedResult, actualOutput);
+		
+		
+	    
 	}
 	
 }

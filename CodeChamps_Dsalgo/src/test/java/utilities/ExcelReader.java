@@ -24,7 +24,7 @@ public class ExcelReader {
 		
 		FileInputStream Fis = new FileInputStream(Excelfile);
 		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		XSSFSheet sheet = workbook.getSheet(sheetName);
 		
 		workbook.close();
 		return readSheet(sheet);

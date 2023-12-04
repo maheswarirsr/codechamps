@@ -36,3 +36,4 @@ Feature: Validating Login Page
     Given The user is on login page with valid "Numpy" and "testuser01"
     When The user click signout link
     Then The user should be redirected to home page with message "Logged out successfully"
+    
