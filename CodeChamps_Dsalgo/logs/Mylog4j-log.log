@@ -5605,3 +5605,588 @@
 [INFO ]2023-12-0118:40:45.906[main]utilities.LoggerLoad1)-elementToCheck:alerttext
 [INFO ]2023-12-0118:40:45.923[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
 [INFO ]2023-12-0118:40:45.924[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0218:25:43.414[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0218:25:43.424[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0218:25:43.428[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0218:25:47.885[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0218:25:50.263[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0218:25:51.194[main]utilities.LoggerLoad1)-Data Structures-Introduction
+[INFO ]2023-12-0218:25:51.842[main]utilities.LoggerLoad1)-Time Complexity
+[INFO ]2023-12-0218:25:52.630[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0218:25:53.811[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0218:25:54.117[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0218:25:54.435[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0218:25:54.472[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0218:25:54.472[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0218:25:54.575[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0218:25:54.767[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0218:25:54.955[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0218:25:55.009[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0218:25:55.018[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0220:04:36.324[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0220:04:36.328[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0220:04:36.328[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0220:04:40.197[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0220:04:41.898[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0220:04:41.931[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:20:47.170[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:20:47.174[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:20:47.174[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:20:51.264[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:20:53.023[main]utilities.LoggerLoad1)-Numpy
+[ERROR]2023-12-0221:20:53.041[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[ERROR]2023-12-0221:20:53.207[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[ERROR]2023-12-0221:20:53.380[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0221:20:53.483[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:22:08.942[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:22:08.948[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:22:08.949[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:22:12.216[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:22:13.859[main]utilities.LoggerLoad1)-Numpy
+[ERROR]2023-12-0221:22:13.870[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[ERROR]2023-12-0221:22:14.045[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[ERROR]2023-12-0221:22:14.200[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0221:22:14.318[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:32:41.013[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:32:41.017[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:32:41.017[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:32:44.169[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:32:46.020[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:32:46.269[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0221:32:46.646[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0221:32:47.192[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:32:48.038[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:32:48.213[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:32:48.452[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0221:32:48.499[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0221:32:48.499[main]utilities.LoggerLoad1)-ACTUAL:hello
+[ERROR]2023-12-0221:32:58.634[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0221:32:58.781[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:35:14.672[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:35:14.676[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:35:14.677[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:35:17.740[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:35:19.445[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:35:19.746[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0221:35:20.120[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0221:35:20.676[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:35:21.387[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:35:21.606[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:35:21.932[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0221:35:21.994[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0221:35:21.994[main]utilities.LoggerLoad1)-ACTUAL:hello
+[ERROR]2023-12-0221:35:32.161[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0221:35:32.300[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:37:42.421[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:37:42.424[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:37:42.425[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:37:45.529[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:37:47.231[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:37:47.531[main]utilities.LoggerLoad1)-Data Structures-Introduction
+[INFO ]2023-12-0221:37:47.809[main]utilities.LoggerLoad1)-Time Complexity
+[INFO ]2023-12-0221:37:48.360[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:37:49.083[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:37:49.306[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:37:49.600[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0221:37:49.649[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0221:37:49.649[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0221:37:49.855[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0221:37:50.076[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0221:37:50.278[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0221:37:50.337[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0221:37:50.337[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:42:57.061[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:42:57.064[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:42:57.065[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:43:00.069[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:43:01.866[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:43:02.133[main]utilities.LoggerLoad1)-Data Structures-Introduction
+[INFO ]2023-12-0221:43:02.354[main]utilities.LoggerLoad1)-Time Complexity
+[INFO ]2023-12-0221:43:02.919[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:43:03.669[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:43:03.870[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:43:04.180[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0221:43:04.245[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0221:43:04.249[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0221:43:04.407[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0221:43:04.673[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0221:43:04.883[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0221:43:04.945[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0221:43:04.945[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:48:49.965[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:48:49.969[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:48:49.969[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:48:53.315[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:48:55.032[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:48:55.306[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0221:48:55.651[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0221:48:56.234[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:48:57.377[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:48:57.606[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:48:57.987[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0221:48:58.051[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0221:48:58.053[main]utilities.LoggerLoad1)-ACTUAL:hello
+[ERROR]2023-12-0221:49:08.346[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0221:49:08.497[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0221:56:17.888[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0221:56:17.891[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0221:56:17.892[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0221:56:21.402[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0221:56:23.143[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0221:56:23.385[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0221:56:23.773[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0221:56:24.287[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:56:25.042[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0221:56:25.256[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0221:56:34.531[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0221:56:34.858[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0221:56:34.997[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0221:56:35.186[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0221:56:35.403[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0222:05:08.620[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0222:05:08.626[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0222:05:08.626[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0222:05:11.675[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0222:05:13.605[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0222:05:13.894[main]utilities.LoggerLoad1)-Data Structures-Introduction
+[INFO ]2023-12-0222:05:14.149[main]utilities.LoggerLoad1)-Time Complexity
+[INFO ]2023-12-0222:05:14.767[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0222:05:15.549[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0222:05:15.838[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0222:05:16.215[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0222:05:16.293[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0222:05:16.294[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0222:05:16.591[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0222:05:16.705[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[ERROR]2023-12-0222:05:26.810[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0222:05:26.978[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0315:21:58.767[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0315:21:58.772[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0315:21:58.773[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0315:22:03.436[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0315:22:05.194[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0315:22:05.484[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0315:22:05.862[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0315:22:06.446[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0315:22:07.457[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:22:07.695[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:22:08.009[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0315:22:08.068[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0315:22:08.068[main]utilities.LoggerLoad1)-ACTUAL:hello
+[ERROR]2023-12-0315:22:18.240[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:22:18.423[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0315:29:07.633[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0315:29:07.637[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0315:29:07.638[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0315:29:10.982[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0315:29:12.817[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0315:29:13.094[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0315:29:13.449[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0315:29:14.009[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0315:29:14.743[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:29:14.997[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:29:15.328[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0315:29:15.389[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0315:29:15.390[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0315:29:15.554[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:29:15.744[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0315:29:15.923[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0315:29:16.013[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:29:16.016[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0315:51:33.205[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0315:51:33.209[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0315:51:33.210[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0315:51:36.414[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0315:51:38.198[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0315:51:38.495[main]utilities.LoggerLoad1)-Stack
+[ERROR]2023-12-0315:51:48.647[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:51:50.948[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:51:51.117[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[ERROR]2023-12-0315:52:01.155[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:01.389[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:52:01.509[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[ERROR]2023-12-0315:52:11.531[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[ERROR]2023-12-0315:52:21.770[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:22.025[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:52:22.186[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:52:30.191[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0315:52:30.197[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0315:52:30.200[main]utilities.LoggerLoad1)-Testing on chrome
+[ERROR]2023-12-0315:52:32.457[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:32.858[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:52:33.043[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0315:52:33.502[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0315:52:35.334[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0315:52:35.599[main]utilities.LoggerLoad1)-Stack
+[ERROR]2023-12-0315:52:43.112[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:43.319[main]utilities.LoggerLoad1)-Closing driver
+[ERROR]2023-12-0315:52:45.708[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:48.174[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:52:48.452[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[ERROR]2023-12-0315:52:58.526[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:52:58.788[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:52:58.939[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[ERROR]2023-12-0315:53:08.977[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:53:09.648[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0315:53:10.432[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0315:53:10.491[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:53:10.713[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:53:11.120[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0315:53:11.180[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0315:53:11.181[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0315:53:11.228[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:53:11.470[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0315:53:11.760[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0315:53:11.806[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:53:11.811[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0315:55:00.478[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0315:55:00.482[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0315:55:00.482[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0315:55:03.691[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0315:55:05.421[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0315:55:05.685[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0315:55:06.055[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0315:55:06.605[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0315:55:07.350[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:55:07.580[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:55:07.919[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0315:55:07.978[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0315:55:07.980[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0315:55:08.225[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:55:08.419[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0315:55:08.587[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0315:55:08.647[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[ERROR]2023-12-0315:55:18.734[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0315:55:19.010[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0315:55:19.234[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0315:55:19.503[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0315:55:19.553[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0315:55:19.553[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0315:55:19.679[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:55:19.911[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0315:55:20.120[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0315:55:20.171[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0315:55:20.171[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0316:24:49.038[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0316:24:49.042[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0316:24:49.042[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0316:24:52.861[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0316:24:54.935[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0316:24:55.252[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0316:24:56.058[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:24:56.243[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[ERROR]2023-12-0316:25:06.289[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0316:25:06.476[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:25:06.584[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[ERROR]2023-12-0316:25:16.653[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0316:25:16.868[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:25:16.971[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[ERROR]2023-12-0316:25:27.066[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0316:25:27.224[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:25:27.354[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[ERROR]2023-12-0316:25:37.412[main]utilities.LoggerLoad1)-Steps Failed , Taking Screenshot
+[INFO ]2023-12-0316:25:37.549[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0316:54:57.538[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0316:54:57.543[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0316:54:57.544[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0316:55:00.662[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0316:55:02.353[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0316:55:02.587[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0316:55:02.959[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0316:55:03.446[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:55:04.167[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:55:04.360[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:55:04.635[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:55:04.681[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:55:04.681[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:55:04.743[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:55:04.939[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:55:05.065[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:55:05.101[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:55:05.470[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0316:55:05.678[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:55:05.748[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:55:05.900[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:55:06.056[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:55:06.077[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:55:06.077[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:55:06.137[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:55:06.306[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:55:06.438[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:55:06.477[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:55:06.484[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0316:58:53.178[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0316:58:53.178[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0316:58:53.178[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0316:58:56.149[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0316:58:57.750[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0316:58:57.961[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0316:58:58.370[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0316:58:58.860[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:58:59.617[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:58:59.814[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:59:00.144[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:59:00.187[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:59:00.187[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:59:00.271[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:00.446[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:59:00.572[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:59:00.618[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:00.974[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0316:59:01.185[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:59:01.241[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:59:01.408[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:59:01.550[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:59:01.573[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:59:01.573[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:59:01.640[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:01.802[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:59:01.930[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:59:01.984[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:01.986[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0316:59:34.083[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0316:59:34.090[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0316:59:34.091[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0316:59:36.921[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0316:59:38.653[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0316:59:38.898[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0316:59:39.296[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0316:59:39.780[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:59:40.562[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:59:40.764[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:59:41.059[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:59:41.099[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:59:41.100[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:59:41.180[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:41.410[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:59:41.534[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:59:41.577[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:41.975[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0316:59:42.207[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0316:59:42.279[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0316:59:42.443[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0316:59:42.595[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0316:59:42.625[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0316:59:42.625[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0316:59:42.697[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:42.871[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0316:59:42.994[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0316:59:43.022[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0316:59:43.029[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0317:03:49.305[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0317:03:49.308[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0317:03:49.309[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0317:03:52.322[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0317:03:54.015[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0317:03:54.256[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0317:03:54.652[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0317:03:55.117[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0317:03:55.842[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0317:03:56.074[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0317:03:56.364[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0317:03:56.394[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0317:03:56.395[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0317:03:56.442[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:56.633[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0317:03:56.757[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0317:03:56.792[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:57.192[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0317:03:57.407[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0317:03:57.482[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0317:03:57.651[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0317:03:57.791[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0317:03:57.817[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0317:03:57.817[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0317:03:57.873[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:58.066[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0317:03:58.183[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0317:03:58.206[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:58.573[main]utilities.LoggerLoad1)-Applications
+[INFO ]2023-12-0317:03:58.772[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0317:03:58.834[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0317:03:59.002[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0317:03:59.139[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0317:03:59.166[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0317:03:59.166[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0317:03:59.215[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:59.394[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0317:03:59.509[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0317:03:59.539[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0317:03:59.539[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0411:15:11.379[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0411:15:11.397[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0411:15:11.398[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0411:15:16.449[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0411:15:18.262[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0411:15:18.539[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0411:15:18.963[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0411:15:19.512[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0411:15:21.177[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0411:15:21.393[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0411:15:21.734[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0411:15:21.794[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0411:15:21.794[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0411:15:22.057[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:22.280[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0411:15:22.542[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0411:15:22.607[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:23.156[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0411:15:23.467[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0411:15:23.611[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0411:15:23.807[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0411:15:24.073[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0411:15:24.128[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0411:15:24.128[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0411:15:24.254[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:24.464[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0411:15:24.711[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0411:15:24.764[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:25.335[main]utilities.LoggerLoad1)-Applications
+[INFO ]2023-12-0411:15:25.647[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0411:15:25.858[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0411:15:26.044[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0411:15:26.282[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0411:15:26.335[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0411:15:26.335[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0411:15:26.457[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:26.659[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0411:15:26.907[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0411:15:26.948[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0411:15:26.948[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0412:33:09.047[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0412:33:09.056[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0412:33:09.057[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0412:33:13.022[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0412:33:13.254[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0412:34:57.203[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0412:34:57.207[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0412:34:57.208[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0412:35:00.417[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0412:35:00.698[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0412:37:31.296[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0412:37:31.305[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0412:37:31.305[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0412:37:34.506[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0412:37:36.229[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0412:37:36.484[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0412:37:36.871[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0412:37:37.536[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0412:37:38.393[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0412:37:38.636[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0412:37:38.961[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0412:37:38.987[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0412:37:38.987[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0412:37:39.071[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:37:39.261[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0412:37:39.397[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0412:37:39.436[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:37:39.948[main]utilities.LoggerLoad1)-Graph Representations
+[INFO ]2023-12-0412:37:40.202[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0412:37:40.264[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0412:37:40.487[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0412:37:40.642[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0412:37:40.666[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0412:37:40.667[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0412:37:40.716[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:37:40.907[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0412:37:41.042[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0412:37:41.083[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:37:41.085[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0412:38:18.554[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0412:38:18.565[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0412:38:18.565[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0412:38:21.527[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0412:38:23.668[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0412:38:23.914[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0412:38:24.372[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0412:38:24.987[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0412:38:25.916[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0412:38:26.155[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0412:38:26.474[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0412:38:26.509[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0412:38:26.509[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0412:38:26.587[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:38:26.801[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0412:38:26.946[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0412:38:26.985[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:38:27.483[main]utilities.LoggerLoad1)-Graph Representations
+[INFO ]2023-12-0412:38:27.737[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0412:38:27.834[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0412:38:27.986[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0412:38:28.179[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0412:38:28.215[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0412:38:28.215[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0412:38:28.270[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:38:28.448[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0412:38:28.589[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0412:38:28.632[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0412:38:28.639[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0413:04:30.437[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0413:04:30.448[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0413:04:30.449[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0413:04:33.485[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0413:04:35.435[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0413:04:35.712[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0413:04:36.073[main]utilities.LoggerLoad1)-Graph
+[INFO ]2023-12-0413:04:36.674[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0413:04:37.659[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0413:04:37.874[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0413:04:38.172[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0413:04:38.203[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0413:04:38.203[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0413:04:38.295[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:04:38.471[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0413:04:38.619[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0413:04:38.668[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:04:39.160[main]utilities.LoggerLoad1)-Graph Representations
+[INFO ]2023-12-0413:04:39.387[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0413:04:39.495[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0413:04:39.640[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0413:04:39.812[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0413:04:39.844[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0413:04:39.844[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0413:04:39.899[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:04:40.090[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0413:04:40.219[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0413:04:40.240[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:04:40.251[main]utilities.LoggerLoad1)-Closing driver
+[INFO ]2023-12-0413:06:03.659[main]utilities.LoggerLoad1)-Loading config file
+[INFO ]2023-12-0413:06:03.668[main]utilities.LoggerLoad1)-BROWSER:chrome
+[INFO ]2023-12-0413:06:03.669[main]utilities.LoggerLoad1)-Testing on chrome
+[INFO ]2023-12-0413:06:06.568[main]utilities.LoggerLoad1)-chrome
+[INFO ]2023-12-0413:06:08.347[main]utilities.LoggerLoad1)-Numpy
+[INFO ]2023-12-0413:06:08.581[main]utilities.LoggerLoad1)-Stack
+[INFO ]2023-12-0413:06:08.979[main]utilities.LoggerLoad1)-Operations in Stack
+[INFO ]2023-12-0413:06:09.841[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0413:06:10.728[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0413:06:10.969[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0413:06:11.252[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0413:06:11.292[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0413:06:11.293[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0413:06:11.349[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:11.521[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0413:06:11.668[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0413:06:11.700[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:12.159[main]utilities.LoggerLoad1)-Implementation
+[INFO ]2023-12-0413:06:12.395[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0413:06:12.457[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0413:06:12.618[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0413:06:12.775[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0413:06:12.799[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0413:06:12.799[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0413:06:12.848[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:13.020[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0413:06:13.191[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0413:06:13.238[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:13.698[main]utilities.LoggerLoad1)-Applications
+[INFO ]2023-12-0413:06:13.934[main]utilities.LoggerLoad1)-Assessment
+[INFO ]2023-12-0413:06:14.015[main]utilities.LoggerLoad1)-EXPECTED:hello
+[INFO ]2023-12-0413:06:14.208[main]utilities.LoggerLoad1)-ENTERING INPUT:print"hello"
+[INFO ]2023-12-0413:06:14.370[main]utilities.LoggerLoad1)-elementToCheck:outputtext
+[INFO ]2023-12-0413:06:14.397[main]utilities.LoggerLoad1)-hello
+[INFO ]2023-12-0413:06:14.397[main]utilities.LoggerLoad1)-ACTUAL:hello
+[INFO ]2023-12-0413:06:14.456[main]utilities.LoggerLoad1)-EXPECTED:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:14.641[main]utilities.LoggerLoad1)-ENTERING INPUT:hello
+[INFO ]2023-12-0413:06:14.781[main]utilities.LoggerLoad1)-elementToCheck:alerttext
+[INFO ]2023-12-0413:06:14.808[main]utilities.LoggerLoad1)-ACTUAL:NameError: name 'hello' is not defined on line 1
+[INFO ]2023-12-0413:06:14.810[main]utilities.LoggerLoad1)-Closing driver

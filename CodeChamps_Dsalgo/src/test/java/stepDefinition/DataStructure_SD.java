@@ -71,6 +71,8 @@ public class DataStructure_SD {
 		String actualOutput = ds.getOutput(elementToCheck);		
 		LoggerLoad.info("ACTUAL:" + actualOutput);
 		Assert.assertEquals(expectedResult, actualOutput);
+		
+		
 	    
 	}
 	

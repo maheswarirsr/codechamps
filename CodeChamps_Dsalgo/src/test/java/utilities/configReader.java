@@ -90,4 +90,5 @@ public class configReader {
 			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");
 		
 	}
+	
 }
