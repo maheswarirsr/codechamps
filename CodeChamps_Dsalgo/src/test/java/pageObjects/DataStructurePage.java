@@ -6,10 +6,11 @@ package pageObjects;
 
 import java.time.Duration;
 
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.ElementNotInteractableException;
-
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -38,8 +39,6 @@ public class DataStructurePage extends LoginPage {
 	
 	String strInput;
 	
-	
-	
 	public void getStart_DS(String pageName) {
 		String url = configReader.getUrl(pageName);
 		driver.get(url);
@@ -60,13 +59,21 @@ public class DataStructurePage extends LoginPage {
 		time_link.click();
 	}
 	
+	public void clickRun() {
+		runbtn.click();
+	}
+	
 	public void refreshPage() {
 		driver.navigate().refresh();
 	}
 	
 	public void entercode(String str) throws InterruptedException {	
+		//String str = "def search(input_list, num):\nif(num in input_list):\nprint(\"Element Found\")\n\b\belse:\nprint(\"Not Found\")\n\b\b\b\bsearch([12, 23, 45, 67, 6, 90] , 12)";
 		
-		LoggerLoad.info("ENTERING INPUT:" + str);
+		LoggerLoad.info("ENTERING INPUT:" + str);		
+		
+		String[] strArray = StringUtils.split(str, "|");
+		
 		Wait<WebDriver> wait =
 		        new FluentWait<>(driver)
 		            .withTimeout(Duration.ofSeconds(1))
@@ -74,34 +81,51 @@ public class DataStructurePage extends LoginPage {
 		            .ignoring(ElementNotInteractableException.class);
 		wait.until(
 				d -> {
-					txteditor.sendKeys(str);
+					for(int i=0; i<strArray.length; i++)
+					{	
+						String aStr = strArray[i];
+						if(aStr.equalsIgnoreCase("ENTER"))
+						{
+							txteditor.sendKeys(Keys.ENTER);
+						}
+						else if(aStr.equalsIgnoreCase("BACKSPACE"))
+						{
+							txteditor.sendKeys(Keys.BACK_SPACE);
+						}
+						else if(aStr.equalsIgnoreCase("DELETE"))
+						{
+							txteditor.sendKeys(Keys.DELETE);
+						}
+						else
+						{
+							txteditor.sendKeys(aStr);
+						}						
+					}					
 					return true;
 				});		   
-	}
-	
-	public void clickRun() {
-		runbtn.click();
 	}
 
 	
 	public String getOutput(String elementToCheck) {
 		String returnValue = "";	
+		
+		Wait<WebDriver> wait =
+		        new FluentWait<>(driver)
+		            .withTimeout(Duration.ofSeconds(5))
+		            .pollingEvery(Duration.ofMillis(300))
+		            .ignoring(ElementNotInteractableException.class);
+		
 		LoggerLoad.info("elementToCheck:" + elementToCheck);
 		if (elementToCheck.equalsIgnoreCase("outputtext"))
-		{			
-			
+		{	
+			wait.until(ExpectedConditions.textToBePresentInElement(outputElement, returnValue));
+			LoggerLoad.info(outputElement.getText());
 			returnValue = outputElement.getText();
 			LoggerLoad.info(returnValue);
 			return returnValue;
 		}
 		else if(elementToCheck.equalsIgnoreCase("alerttext"))
 		{
-			 Wait<WebDriver> wait =
-			        new FluentWait<>(driver)
-			            .withTimeout(Duration.ofSeconds(5))
-			            .pollingEvery(Duration.ofMillis(300))
-			            .ignoring(ElementNotInteractableException.class);
-			
 			wait.until(ExpectedConditions.alertIsPresent());
 			Alert alt = driver.switchTo().alert();
 			returnValue = alt.getText();

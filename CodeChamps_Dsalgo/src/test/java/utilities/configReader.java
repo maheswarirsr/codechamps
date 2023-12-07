@@ -87,12 +87,30 @@ public class configReader {
 		if(treeurl != null)
 			return treeurl;
 		else
+			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");		
+	}
+	public static String getArrayUrl() {
+		String arrayurl=properties.getProperty("array");
+		if(arrayurl != null)
+			return arrayurl;
+		else
+			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");		
+	}
+	public static String getPracticeUrl() {
+		String practice=properties.getProperty("practice");
+		if(practice != null)
+			return practice;
+		else
+			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");		
+	}
+	public static String getStackUrl() {
+		String stackurl=properties.getProperty("stack");
+		if(stackurl != null)
+			return stackurl;
+		else
 			throw new RuntimeException("treeurl not specified in the Configuration.properties file.");
 		
 	}
-<<<<<<< HEAD
-	
-=======
 	public static String getLinkUrl() {
 		String linkurl=properties.getProperty("linkedlist");
 		if(linkurl != null)
@@ -100,5 +118,12 @@ public class configReader {
 		else
 			throw new RuntimeException("linkurl not specified in the Configuration.properties file.");
 	}
->>>>>>> 217f887e66efc0138209bc3c39d6d84a12ad220e
+	public static String getQueueUrl() {
+		String queueurl=properties.getProperty("queueurl");
+		if(queueurl != null)
+			return queueurl;
+		else
+			throw new RuntimeException("queueurl not specified in the Configuration.properties file.");
+		
+	}
 }

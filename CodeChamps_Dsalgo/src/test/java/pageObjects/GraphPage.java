@@ -32,8 +32,7 @@ public class GraphPage {
 		driver.findElement(By.xpath(xpath)).click(); 
 	}
 	public void navigateToGraphPage()
-	{
-	
+	{	
 		String url = configReader.getUrl("graph");
 		driver.get(url);
 	}

@@ -3,79 +3,69 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import utilities.LoggerLoad;
 import utilities.configReader;
 
 public class QueuePage extends DataStructurePage {
 
 	public QueuePage() {
-
 	}
-
-	@FindBy(xpath = "//a[@href='queue']")
-	WebElement queue_getStarted;
-	@FindBy(xpath = "//html/body/div/h4")
-	WebElement queue_title;
-	@FindBy(xpath = "//a[@href='implementation-lists']")
-	WebElement impleofQueueinPython;
-	@FindBy(xpath = "//a[@href='implementation-collections']")
-	WebElement impleUsingCollects;
-	@FindBy(xpath = "//a[@href='Implementation-array']")
-	WebElement impleUsingArray;
-	@FindBy(xpath = "//a[@href='QueueOp']")
-	WebElement queueOperations;
-	@FindBy(xpath = "//button[text()='Run']")
-	WebElement runbtn;
-	@FindBy(xpath = "//a[@class='btn btn-info']")
-	WebElement tryBtn;
-	@FindBy(xpath = "//form/div/div/div/textarea")
-	WebElement txteditor;
-	@FindBy(xpath = "//div/pre[@id='output']")
-	WebElement outputElement;
-
-	String strInput;
-
-	public void getStart_Queue(String pageName) {
-		String url = configReader.getUrl(pageName);
-		driver.get(url);
-	}
-
-	public String getPageTitle() {
-		String title = driver.getTitle();
-		LoggerLoad.info("Actual :" + title);
-		return title;
-	}
-
-	public void getStartBtn() {
+	
+	@FindBy(xpath = "//a[@href='queue']")WebElement queue_getStarted;
+	@FindBy(xpath = "//a[normalize-space()='Implementation of Queue in Python']")WebElement implementationofpython;
+	@FindBy(xpath = "//a[normalize-space()='Implementation using collections.deque']")WebElement implementationcollections;
+	@FindBy(xpath = "//a[normalize-space()='Implementation using array']")WebElement implementationarray;
+	@FindBy(xpath = "//a[normalize-space()='Queue Operations']")WebElement queueop;
+	
+	////a[normalize-space()='Implementation of Queue in Python']
+	
+	public void clickGetStart() {
 		queue_getStarted.click();
 	}
-
 	public void getQueuePage() {
-		String queue = configReader.getUrlQueue();
+		String queue = configReader.getQueueUrl();
 		driver.get(queue);
 	}
-
-	public void clickTryHere() {
-		tryBtn.click();
+	public String getQueuePageTitle() {
+		String title = driver.getTitle();
+		return title;
 	}
-
+	public void getImpofQue() {
+		implementationofpython.click();
+	}
+	public void getImpofColl() {
+		implementationcollections.click();
+	}
+	public void getImpofArr() {
+		implementationarray.click();
+	}
+	public void getQueOpe() {
+		queueop.click();
+	}	
 	public void clickQueueLink(String link) {
 
 		switch (link) {
 		case "Implementation of Queue in Python":
-			impleofQueueinPython.click();
+			implementationofpython.click();
 			break;
 		case "Implementation using collections.deque":
-			impleUsingCollects.click();
+			implementationcollections.click();
 			break;
 		case "Implementation using array":
-			impleUsingArray.click();
+			implementationarray.click();
 			break;
 		case "Queue Operations":
-			queueOperations.click();
+			queueop.click();
 			break;
 		}
 
 	}
-
+	
 }
+	
+	
+
+
+
+	
+//
+//}

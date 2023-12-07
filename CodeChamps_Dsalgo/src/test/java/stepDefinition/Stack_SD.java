@@ -1,34 +1,39 @@
 package stepDefinition;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import pageObjects.DataStructurePage;
+import io.cucumber.java.en.*;
 import pageObjects.StackPage;
 
+//import io.cucumber.java.en.Given;
+//import io.cucumber.java.en.When;
+//import pageObjects.DataStructurePage;
+//import pageObjects.StackPage;
+//
 public class Stack_SD {
 	
 	StackPage sp = new StackPage();
-	DataStructurePage ds = new DataStructurePage();	
-	
-	
+
 	@When("The user click get started on {string} page")
 	public void the_user_click_get_started_on_page(String string) {
-		sp.gs_StackLinkClick();
+	    sp.clickGetStart();
+	}	
+	@Given("User is in the Stack Page after logged in")
+	public void user_is_in_the_stack_page_after_logged_in() {
+	    sp.getStackPage();
 	}
 
-	@When("The user click {string} link")
-	public void the_user_click_link(String stackLink) {
-		sp.clickLinksInStackPage(stackLink);
+	@When("User clicks on the Operations in Stack link")
+	public void user_clicks_on_the_operations_in_stack_link() {
+	    sp.getOpeInStack();
 	}
-	@Given("The user is on stack page")
-	public void the_user_is_on_stack_page() {
-		sp.navigateTostackPage();
+	@When("User clicks on the Implementation link")
+	public void user_clicks_on_the_implementation_link() {
+	    sp.getImp();
 	}
-
-
+	@When("User clicks on the Applications link")
+	public void user_clicks_on_the_applications_link() {
+	   sp.getApp();
+	}
 }
+
+	
+

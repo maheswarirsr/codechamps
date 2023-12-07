@@ -67,13 +67,10 @@ public class DataStructure_SD {
 	}
 	
 	@Then("The user should see the expected output")
-	public void the_user_should_see_the_expected_output() {
+	public void the_user_should_see_the_expected_output()  {
 		String actualOutput = ds.getOutput(elementToCheck);		
-		LoggerLoad.info("ACTUAL:" + actualOutput);
-		Assert.assertEquals(expectedResult, actualOutput);
-		
-		
-	    
+		LoggerLoad.info("ACTUAL:"+actualOutput);
+		Assert.assertEquals(expectedResult,actualOutput);			    
 	}
 	
 }

@@ -13,11 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = { "src/test/resources/features" },
 		glue = { "stepDefinition", "appHooks" },
 		plugin = { "pretty", "html:target/Reports/CucumberReport.html" },
-<<<<<<< HEAD
-		tags="@stack"
-=======
-		tags="@link"
->>>>>>> 217f887e66efc0138209bc3c39d6d84a12ad220e
+		tags="@TS_array_06"
 		)
 public class TestRunner {
 	
