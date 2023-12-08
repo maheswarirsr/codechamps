@@ -111,14 +111,14 @@ public class DataStructurePage extends LoginPage {
 		
 		Wait<WebDriver> wait =
 		        new FluentWait<>(driver)
-		            .withTimeout(Duration.ofSeconds(5))
+		            .withTimeout(Duration.ofSeconds(10))
 		            .pollingEvery(Duration.ofMillis(300))
 		            .ignoring(ElementNotInteractableException.class);
 		
 		LoggerLoad.info("elementToCheck:" + elementToCheck);
 		if (elementToCheck.equalsIgnoreCase("outputtext"))
 		{	
-			wait.until(ExpectedConditions.textToBePresentInElement(outputElement, returnValue));
+			wait.until(ExpectedConditions.visibilityOf(outputElement));
 			LoggerLoad.info(outputElement.getText());
 			returnValue = outputElement.getText();
 			LoggerLoad.info(returnValue);

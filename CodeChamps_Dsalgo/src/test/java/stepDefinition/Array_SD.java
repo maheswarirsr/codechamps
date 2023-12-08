@@ -57,6 +57,18 @@ public class Array_SD {
 	public void the_user_click_submit_button() {
 	   ap.clickSubmit();
 	}
+	@When("The user click on Max Consecutive Ones link")
+	public void the_user_click_on_max_consecutive_ones_link() {
+	   ap.getMax();
+	}
+	@When("The user click on Find Numbers with Even Number of Digits link")
+	public void the_user_click_on_find_numbers_with_even_number_of_digits_link() {
+	    ap.getFind();
+	}
+	@When("The user click on Squares of a Sorted Array link")
+	public void the_user_click_on_squares_of_a_sorted_array_link() {
+	   ap.getSquare();
+	}
 
 
 

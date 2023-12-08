@@ -7,6 +7,7 @@ import java.util.Properties;
 
 public class configReader {
 	private static Properties properties;
+	private static String browserType = null;
 	private final static String propertyFilePath = "./src/test/resources/config/config.properties";	
 	
 	public static void loadConfig() throws Throwable {
@@ -27,11 +28,11 @@ public class configReader {
 		}
 	}
 	
-//	public static void setBrowserType(String browser) {
-//		browserType = browser;
-//	}
+	public static void setBrowserType(String browser) {
+		browserType = browser;
+	}
 	public static String getBrowserType() throws Throwable {
-		String browserType = properties.getProperty("browser");
+		 browserType = properties.getProperty("browser");
 		if (browserType != null)
 			return browserType;
 		else

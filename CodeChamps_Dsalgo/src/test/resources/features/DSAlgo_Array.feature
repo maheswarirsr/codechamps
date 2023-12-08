@@ -108,3 +108,21 @@ Feature: Validating Array Page
     Examples: 
       | sheetname | rownumber |
       | Sheet3    |         1 |
+
+  @TS_array_08
+  Scenario: The user is navigate to practice questions page
+    Given The user is on pactice question page after logged in
+    When The user click on Max Consecutive Ones link
+    Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons
+
+  @TS_array_09
+  Scenario: The user is navigate to practice questions page
+    Given The user is on pactice question page after logged in
+    When The user click on Find Numbers with Even Number of Digits link
+    Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons
+
+  @TS_array_10
+  Scenario: The user is navigate to practice questions page
+    Given The user is on pactice question page after logged in
+    When The user click on Squares of a Sorted Array link
+    Then The user is redirected to Questions page contains a tryEditor with Run and Submit buttons
