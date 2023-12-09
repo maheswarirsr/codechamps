@@ -7,12 +7,12 @@
 		  <class name="runnerTest.TestRunner"></class>
 	  </classes>
   </test> <!-- Test -->
-<!--   <test thread-count="5" name="Testfirefox">-->
-<!--	  <parameter name="browser" value="firefox"></parameter>-->
-<!--	  <classes>-->
-<!--		  <class name="runnerTest.TestRunner"></class>-->
-<!--	  </classes>-->
-<!--  </test>  Test -->
+   <test thread-count="5" name="Testfirefox">
+	  <parameter name="browser" value="firefox"></parameter>
+	  <classes>
+		  <class name="runnerTest.TestRunner"></class>
+	  </classes>
+  </test>   <!-- Test -->
    <test thread-count="5" name="Testedge">
 	  <parameter name="browser" value="edge"></parameter>
 	  <classes>

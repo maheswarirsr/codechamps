@@ -17,7 +17,8 @@ import utilities.configReader;
 		features = { "src/test/resources/features" },
 		glue = { "stepDefinition", "appHooks" },
 		plugin = { "pretty", "html:target/Reports/CucumberReport.html" },
-		tags="@array"
+		monochrome=false
+		//tags="@graph"
 		)
 //public class TestRunner {
 //	
