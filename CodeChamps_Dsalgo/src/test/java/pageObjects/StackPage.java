@@ -16,6 +16,7 @@ public class StackPage extends DataStructurePage{
 	@FindBy (xpath="//a[normalize-space()='Implementation']")WebElement stack_imp;
 	@FindBy (xpath="//a[normalize-space()='Applications']")WebElement stack_app;
 	
+	
 	public void clickGetStart() {
 		stack_getStart.click();
 	}

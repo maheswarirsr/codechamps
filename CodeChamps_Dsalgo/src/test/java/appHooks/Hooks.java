@@ -2,6 +2,7 @@ package appHooks;
 
 import java.io.File;
 import java.io.IOException;
+import java.sql.DriverManager;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -36,15 +37,25 @@ public class Hooks {
 	}
 	
 	@AfterStep
-	public void afterstep(Scenario scenario) throws IOException {
-		if (scenario.isFailed()) {
-			LoggerLoad.error("Steps Failed , Taking Screenshot");
-			TakesScreenshot ts=(TakesScreenshot)driver;
-			File source=ts.getScreenshotAs(OutputType.FILE);
-			File target=new File(".\\screenshots\\takingscreenshot.png");
-			FileUtils.copyFile(source, target);
-          }
+	public void attachScreenshot(Scenario scenario) {
+		
+		if(scenario.isFailed()) {
+			byte[] screenshotTaken = ((TakesScreenshot)DriverManager.getDrivers()).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshotTaken, "image/png", "error screen");
+		}
+		
 	}
+	
+//	@AfterStep
+//	public void afterstep(Scenario scenario) throws IOException {
+//		if (scenario.isFailed()) {
+//			LoggerLoad.error("Steps Failed , Taking Screenshot");
+//			TakesScreenshot ts=(TakesScreenshot)driver;
+//			File source=ts.getScreenshotAs(OutputType.FILE);
+//			File target=new File(".\\screenshots\\takingscreenshot.png");
+//			FileUtils.copyFile(source, target);
+//          }
+//	}
 	
 	@AfterAll
 	public static void after() {

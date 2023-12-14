@@ -17,7 +17,7 @@ Feature: Validating Stack Page
     When The user click try here button
     Then The user is redirected to "Assessment" page
 
-  Scenario Outline: 
+  Scenario Outline: The user submits python code
     When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
     Then The user should see the expected output
@@ -35,7 +35,7 @@ Feature: Validating Stack Page
     When The user click try here button
     Then The user is redirected to "Assessment" page
 
-  Scenario Outline: 
+  Scenario Outline: The user submits python code
     When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
     Then The user should see the expected output
@@ -43,8 +43,8 @@ Feature: Validating Stack Page
     Examples: 
       | sheetname | rownumber |
       | Sheet2    |         0 |
-      
- @TS_stack_04
+
+  @TS_stack_04
   Scenario: User verifies Applications link
     Given User is in the Stack Page after logged in
     When User clicks on the Applications link
@@ -52,7 +52,7 @@ Feature: Validating Stack Page
     When The user click try here button
     Then The user is redirected to "Assessment" page
 
-  Scenario Outline: 
+  Scenario Outline: The user submits python code
     When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
     Then The user should see the expected output

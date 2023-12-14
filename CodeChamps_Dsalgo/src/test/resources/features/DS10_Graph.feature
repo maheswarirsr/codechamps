@@ -17,7 +17,7 @@ Feature: Validating Graph Page
     When The user click Try here button
     Then The user redirected to "Assessment" page
 
-  Scenario Outline: 
+  Scenario Outline:  The user submits python code
     When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
     Then The user should see the expected output
@@ -35,7 +35,7 @@ Feature: Validating Graph Page
     When The user click Try here button
     Then The user redirected to "Assessment" page
 
-  Scenario Outline: 
+  Scenario Outline:  The user submits python code
     When The user enter the python code from sheet "<sheetname>" and <rownumber>
     And The user click run button
     Then The user should see the expected output
