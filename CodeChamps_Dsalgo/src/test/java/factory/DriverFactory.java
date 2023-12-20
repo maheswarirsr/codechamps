@@ -43,7 +43,24 @@ public class DriverFactory {
 	return driver;
 }
 	@Test
-	public void test() throws InterruptedException {
+	public void testchrome() throws InterruptedException {
+		driver = new ChromeDriver();
+		driver.get("https://dsportalapp.herokuapp.com/");
+		driver.manage().window().maximize();		
+		System.out.println("Test is completed successfully");
+	}
+	
+	@Test
+	public void testedge() throws InterruptedException {
+		driver = new EdgeDriver();	
+		driver.get("https://dsportalapp.herokuapp.com/");
+		driver.manage().window().maximize();		
+		System.out.println("Test is completed successfully");
+	}
+	
+	@Test
+	public void testfirefox() throws InterruptedException {
+		driver = new FirefoxDriver();
 		driver.get("https://dsportalapp.herokuapp.com/");
 		driver.manage().window().maximize();		
 		System.out.println("Test is completed successfully");

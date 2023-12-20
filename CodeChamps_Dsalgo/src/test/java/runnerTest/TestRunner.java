@@ -15,25 +15,25 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = { "src/test/resources/features" },
 		glue = { "stepDefinition", "appHooks" },
-		plugin = { "pretty","html:target/reports/cucumber-reports", 
-				   "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-				   "json:target/cucumber-report/cucumber.json",
-				   "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-		monochrome=true
-		//tags="@stack"
+		plugin = { "pretty","html:target/reports/cucumber-reports.html",
+				   "pretty","junit:target/reports/cucumber.xml",
+				   "pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+				   "pretty","json:target/cucumber-report/cucumber.json",
+				   "pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		monochrome=true		
 		)
-//public class TestRunner {
-//	
-//}
-
-public class TestRunner extends AbstractTestNGCucumberTests {
-	@Override
-	@DataProvider(parallel = true)
-	public Object[][] scenarios() {
-
-		return super.scenarios();
-	}
+public class TestRunner {
+	
 }
+
+//public class TestRunner extends AbstractTestNGCucumberTests {
+//	@Override
+//	@DataProvider(parallel = true)
+//	public Object[][] scenarios() {
+//
+//		return super.scenarios();
+//	}
+//}
 //	@BeforeTest
 //    @Parameters({"browser"})
 //    public void defineBrowser(String browser) throws Throwable {

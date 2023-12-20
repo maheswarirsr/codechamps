@@ -1,0 +1,1557 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.features",
+    "children" : [ {
+      "name" : "DS01_Home_feature.User launch dsalgo application and test Home page",
+      "children" : [ {
+        "name" : "User launch home page of an dsalgo project",
+        "uid" : "b439a35528e23043",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025535141,
+          "stop" : 1703025535668,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "7eb002e565c86f5f",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025535732,
+          "stop" : 1703025535988,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Arrays" ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "866fe3a6943d11d",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025535999,
+          "stop" : 1703025536248,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Linked List" ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "b839e57840de117e",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025536265,
+          "stop" : 1703025536509,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Stack" ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "12a97b59bf6a04af",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025536519,
+          "stop" : 1703025536741,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Queue" ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "363285f8d70c7fe0",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025536755,
+          "stop" : 1703025536975,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Tree" ]
+      }, {
+        "name" : "User is on home page and click dropdown without signin",
+        "uid" : "d628204ba233b254",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025536985,
+          "stop" : 1703025537218,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Graph" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "d468f1673cafb8da",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025537225,
+          "stop" : 1703025537397,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Array" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "86e57265aac45346",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025537402,
+          "stop" : 1703025537589,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Linked List" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "45ecdf42f8980765",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025537594,
+          "stop" : 1703025537768,
+          "duration" : 174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Stack" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "2d1836f3d1eef10d",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025537774,
+          "stop" : 1703025537949,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Queue" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "9423384bfff059dd",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025537956,
+          "stop" : 1703025538188,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Tree" ]
+      }, {
+        "name" : "User is on home page and click getstarted without signin",
+        "uid" : "19bd9448af6577ed",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025538197,
+          "stop" : 1703025538378,
+          "duration" : 181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Graph" ]
+      }, {
+        "name" : "User is on home page and click Register link",
+        "uid" : "448e1ba17707d6bf",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025538383,
+          "stop" : 1703025538528,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is on home page and click signin link",
+        "uid" : "f259c94091f0a8fa",
+        "parentUid" : "8bc6b12dbff1a98bca15326a286fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025538538,
+          "stop" : 1703025538704,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "DS01_Home_feature.User launch dsalgo application and test Home page"
+    }, {
+      "name" : "DS02_Register_feature.Validating register page",
+      "children" : [ {
+        "name" : "The user get error message for empty field  username and password textbox",
+        "uid" : "e5e1b2c5fe0c3f02",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025538718,
+          "stop" : 1703025538882,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user get error message for invalid  username",
+        "uid" : "7298a574e6fc1ba3",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025538894,
+          "stop" : 1703025539267,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user get error message for validate password",
+        "uid" : "999e4ca152568f7",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025539278,
+          "stop" : 1703025539582,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user get error message for validate password",
+        "uid" : "2d84b4cfdce313c7",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025539589,
+          "stop" : 1703025539917,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user get error message for validate password",
+        "uid" : "e08a8943d61cd798",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025539928,
+          "stop" : 1703025540287,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user get error message for validate password",
+        "uid" : "9c9a0ce47cc6ad4d",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025540306,
+          "stop" : 1703025540658,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user redirected to home page with valid credentials",
+        "uid" : "e558e59cc2df36cf",
+        "parentUid" : "97a32f10a8f2820d53b32784cc316e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025540663,
+          "stop" : 1703025541028,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "DS02_Register_feature.Validating register page"
+    }, {
+      "name" : "DS03_Login_feature.Validating Login Page",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "84d16ae809a4881e",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025541036,
+          "stop" : 1703025541497,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with valid and invalid credentials",
+        "uid" : "16a155c3fc6eb8c5",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025541501,
+          "stop" : 1703025542427,
+          "duration" : 926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet1" ]
+      }, {
+        "name" : "Login with valid and invalid credentials",
+        "uid" : "dbde6e1a7ee97226",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025542433,
+          "stop" : 1703025542856,
+          "duration" : 423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet1" ]
+      }, {
+        "name" : "Login with valid and invalid credentials",
+        "uid" : "d4f63d1801fbe1b5",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025542861,
+          "stop" : 1703025543324,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "Sheet1" ]
+      }, {
+        "name" : "Login with valid and invalid credentials",
+        "uid" : "cb87168d4f649f53",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025543331,
+          "stop" : 1703025543856,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "Sheet1" ]
+      }, {
+        "name" : "Login with valid  credentials",
+        "uid" : "92128dda3b579979",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025543861,
+          "stop" : 1703025544452,
+          "duration" : 591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify signout link",
+        "uid" : "33cabbfaf5d73f59",
+        "parentUid" : "ad41de22d20919ec13504db28b61d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025544458,
+          "stop" : 1703025545231,
+          "duration" : 773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "DS03_Login_feature.Validating Login Page"
+    }, {
+      "name" : "DS04_Data_feature.Validating DataStructure Page",
+      "children" : [ {
+        "name" : "The user is navigate to DS introduction page",
+        "uid" : "8f95452fbe629af5",
+        "parentUid" : "420b6645a8cd5846ec2799dd3a1eb880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025545239,
+          "stop" : 1703025546466,
+          "duration" : 1227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "d1ac4cd9409185b",
+        "parentUid" : "420b6645a8cd5846ec2799dd3a1eb880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025546475,
+          "stop" : 1703025546791,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "4fcd8a485b5e9194",
+        "parentUid" : "420b6645a8cd5846ec2799dd3a1eb880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025546798,
+          "stop" : 1703025547055,
+          "duration" : 257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      } ],
+      "uid" : "DS04_Data_feature.Validating DataStructure Page"
+    }, {
+      "name" : "DS05_Array_feature.Validating Array Page",
+      "children" : [ {
+        "name" : "The user is navigate to array page",
+        "uid" : "45f379e8aa7c2e1e",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025547074,
+          "stop" : 1703025547797,
+          "duration" : 723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is navigate to arrays in python page",
+        "uid" : "db5b6d4dbe89fa0e",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025547803,
+          "stop" : 1703025548377,
+          "duration" : 574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "f4de35ca072a90a",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025548382,
+          "stop" : 1703025548644,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to arrays using list page",
+        "uid" : "b0310a6149606582",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025548648,
+          "stop" : 1703025549009,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "c86dbe57571135a6",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025549014,
+          "stop" : 1703025549212,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to basic operations in lists page",
+        "uid" : "22b7684db82ed02a",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025549223,
+          "stop" : 1703025549549,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "8d4f891f94348326",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025549552,
+          "stop" : 1703025549769,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to applications of array page",
+        "uid" : "c0fac87e4dad7d07",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025549774,
+          "stop" : 1703025550126,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "b62dc4a8049ea8b0",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025550129,
+          "stop" : 1703025550359,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to practice questions page",
+        "uid" : "6a546667e6a93002",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025550363,
+          "stop" : 1703025550579,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is able to run code in tryEditor for Search the array link",
+        "uid" : "1b84a3d03345e9d9",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025550584,
+          "stop" : 1703025552477,
+          "duration" : 1893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet3" ]
+      }, {
+        "name" : "The user is navigate to practice questions page",
+        "uid" : "16c2a02bad99e5b5",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025552481,
+          "stop" : 1703025552680,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is able to run code in tryEditor for Search the array link",
+        "uid" : "b6c3c56af6af37b9",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025552687,
+          "stop" : 1703025554735,
+          "duration" : 2048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet3" ]
+      }, {
+        "name" : "The user is navigate to practice questions page",
+        "uid" : "27b4f0c79b88558f",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025554740,
+          "stop" : 1703025554952,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is navigate to practice questions page",
+        "uid" : "2e47e15c6632967e",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025554961,
+          "stop" : 1703025555179,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is navigate to practice questions page",
+        "uid" : "4c6de0daa455f603",
+        "parentUid" : "8ce819f097312eeaec20e163eac0a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025555187,
+          "stop" : 1703025555374,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "DS05_Array_feature.Validating Array Page"
+    }, {
+      "name" : "DS06_Linked_feature.Validating Linked List Page",
+      "children" : [ {
+        "name" : "The user is navigate to linkedlist page",
+        "uid" : "9ecc96d689f65abb",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025555392,
+          "stop" : 1703025556084,
+          "duration" : 692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is navigate to introduction page",
+        "uid" : "b47ace34fb5011bf",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025556091,
+          "stop" : 1703025556446,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "c089e8f7c23bd22a",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025556451,
+          "stop" : 1703025556732,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to creating linked lIst page",
+        "uid" : "19cabf4dea07c824",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025556736,
+          "stop" : 1703025557149,
+          "duration" : 413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "c84f63e24dd765b4",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025557154,
+          "stop" : 1703025557403,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to types-of-linked-list page",
+        "uid" : "9c9c486bf2d03cbc",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025557409,
+          "stop" : 1703025557752,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "3c2d415ebd6f353d",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025557760,
+          "stop" : 1703025557978,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to implement-linked-list-in-python page",
+        "uid" : "eb82f18b22c4db30",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025557983,
+          "stop" : 1703025558308,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "d90b9c8eaa95e138",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025558314,
+          "stop" : 1703025558496,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to traversal page",
+        "uid" : "d7a445bda9c77410",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025558500,
+          "stop" : 1703025558885,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "adebd313324d600a",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025558897,
+          "stop" : 1703025559172,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to insertion-in-linked-list page",
+        "uid" : "6f8ad7c6142c8f9e",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025559177,
+          "stop" : 1703025559612,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "fee9b7855f3eb6a5",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025559617,
+          "stop" : 1703025559855,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is navigate to deletion-in-linked-list page",
+        "uid" : "d9e39ccfff2a0aae",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025559859,
+          "stop" : 1703025560200,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "ed8695b066bcb956",
+        "parentUid" : "ecca7dcff564e96fe8a7088458870862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025560205,
+          "stop" : 1703025560374,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      } ],
+      "uid" : "DS06_Linked_feature.Validating Linked List Page"
+    }, {
+      "name" : "DS07_Stack_feature.Validating Stack Page",
+      "children" : [ {
+        "name" : "The user is navigate to Stack page",
+        "uid" : "8c779a78ac97f94f",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025560380,
+          "stop" : 1703025561023,
+          "duration" : 643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User verifies Operations in Stack link",
+        "uid" : "f993862b812d9f46",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025561027,
+          "stop" : 1703025561358,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "23d5174544efc312",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025561362,
+          "stop" : 1703025561607,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "22e6aaa09e165d95",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025561611,
+          "stop" : 1703025561798,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "User verifies Implementation link",
+        "uid" : "931bb48e720755f6",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025561806,
+          "stop" : 1703025562118,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "c98fa5a7758de590",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025562123,
+          "stop" : 1703025562361,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "User verifies Applications link",
+        "uid" : "5e9c4bc77fe4afba",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025562365,
+          "stop" : 1703025562699,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "63ecba18617d26e9",
+        "parentUid" : "aa43ae5647e0ddfa03aaf87b2358b501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025562705,
+          "stop" : 1703025562911,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      } ],
+      "uid" : "DS07_Stack_feature.Validating Stack Page"
+    }, {
+      "name" : "DS08_Queue_feature.User launch DSAlgo application and test Queue page",
+      "children" : [ {
+        "name" : "The user is navigate to queue page",
+        "uid" : "5589ecd6fb92579e",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025562916,
+          "stop" : 1703025563587,
+          "duration" : 671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is able to navigate to the Implementation of Queue in Python page",
+        "uid" : "ebae4f12259b9094",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025563593,
+          "stop" : 1703025564082,
+          "duration" : 489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "a1cc53d5b2cb230a",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025564089,
+          "stop" : 1703025564369,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is able to navigate to the Implementation using collections.deque page",
+        "uid" : "bf85d1a9806de411",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025564375,
+          "stop" : 1703025564873,
+          "duration" : 498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "5b755e0190ddcb74",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025564877,
+          "stop" : 1703025565156,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is able to navigate to the Implementation using array page",
+        "uid" : "54ac362561170606",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025565161,
+          "stop" : 1703025565625,
+          "duration" : 464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "ca088fe241812cb3",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025565635,
+          "stop" : 1703025565913,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is able to navigate to the Queue Operations page",
+        "uid" : "a6428c358fd74a39",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025565918,
+          "stop" : 1703025566324,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "ba77cd54fc08566f",
+        "parentUid" : "1b76e1f02504024d235f4cb1043a1f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025566329,
+          "stop" : 1703025566561,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      } ],
+      "uid" : "DS08_Queue_feature.User launch DSAlgo application and test Queue page"
+    }, {
+      "name" : "DS09_Tree_feature.Validating Tree Page",
+      "children" : [ {
+        "name" : "The user is navigate to tree page",
+        "uid" : "c49e83c0af0d680d",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025566570,
+          "stop" : 1703025567263,
+          "duration" : 693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user is validating the overview of trees",
+        "uid" : "bc917e43a3ea615",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025567266,
+          "stop" : 1703025567649,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "bc886aed1dd3b950",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025567652,
+          "stop" : 1703025567880,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "507e774f6a78ceb2",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025567884,
+          "stop" : 1703025568079,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the terminologies",
+        "uid" : "e41b9bce0d8ce8f6",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025568084,
+          "stop" : 1703025568466,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "5e864e8a8bff63a7",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025568471,
+          "stop" : 1703025568708,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "ec28c2f6a70ce187",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025568713,
+          "stop" : 1703025568927,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the types-of-trees",
+        "uid" : "782b898df28fb237",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025568932,
+          "stop" : 1703025569321,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "9e4ec5f2fa3b032",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025569333,
+          "stop" : 1703025569610,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the tree-traversals",
+        "uid" : "2630ba040fb2275b",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025569614,
+          "stop" : 1703025569982,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "143544b0f95e2193",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025569988,
+          "stop" : 1703025570207,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the traversals-illustration",
+        "uid" : "288326ab712ea572",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025570210,
+          "stop" : 1703025570598,
+          "duration" : 388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "780f8839ff0281dd",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025570601,
+          "stop" : 1703025570825,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the binary-trees",
+        "uid" : "e97fff8b553c41d5",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025570829,
+          "stop" : 1703025571216,
+          "duration" : 387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "bf3c899a60961d61",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025571222,
+          "stop" : 1703025571418,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the types-of-binary-trees",
+        "uid" : "53c2f0f15faa8dfd",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025571422,
+          "stop" : 1703025571778,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "628a4743e11f665d",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025571782,
+          "stop" : 1703025571950,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the implementation-in-python",
+        "uid" : "5ca77f98ee8b590c",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025571954,
+          "stop" : 1703025572298,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "2eb5ea5208fe2dcf",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025572301,
+          "stop" : 1703025572638,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the binary-tree-traversals",
+        "uid" : "bc53972ae0b5a965",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025572642,
+          "stop" : 1703025572990,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "f6e254b563332a1e",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025572992,
+          "stop" : 1703025573221,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the implementation-of-binary-trees",
+        "uid" : "b25d65980e48a37f",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025573225,
+          "stop" : 1703025573599,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "f608ae0087309416",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025573604,
+          "stop" : 1703025573817,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the applications-of-binary-trees",
+        "uid" : "158e2faf44c5680e",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025573821,
+          "stop" : 1703025574182,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "adffcd600e31681b",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025574188,
+          "stop" : 1703025574463,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the binary-search-trees",
+        "uid" : "4843840810438530",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025574474,
+          "stop" : 1703025575081,
+          "duration" : 607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "6ad37a117c07e6d4",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025575085,
+          "stop" : 1703025575308,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user is validating the implementation-of-bst",
+        "uid" : "bd83568a5ba7a2d",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025575314,
+          "stop" : 1703025575857,
+          "duration" : 543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "4bd3765bf0f4df0e",
+        "parentUid" : "3a2ab2bb151d3fed618c915baf004f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025575860,
+          "stop" : 1703025576102,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      } ],
+      "uid" : "DS09_Tree_feature.Validating Tree Page"
+    }, {
+      "name" : "DS10_Graph_feature.Validating Graph Page",
+      "children" : [ {
+        "name" : "The user is navigate to Graph page",
+        "uid" : "83220b6f730bf69",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025576107,
+          "stop" : 1703025576758,
+          "duration" : 651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User verifies Graph link",
+        "uid" : "463bc7a92c60aa30",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025576762,
+          "stop" : 1703025577078,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "ed300570a720da8f",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025577082,
+          "stop" : 1703025577313,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "64201b72f14a0ad4",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025577316,
+          "stop" : 1703025577516,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      }, {
+        "name" : "User verifies Graph Representations link",
+        "uid" : "9b18a826b3e74bd6",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025577521,
+          "stop" : 1703025577900,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "35bd1321b2556414",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025577905,
+          "stop" : 1703025578173,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "Sheet2" ]
+      }, {
+        "name" : "The user submits python code",
+        "uid" : "409efad7cf33c4cc",
+        "parentUid" : "1578a4b307028db3d08aa671de7c0fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703025578177,
+          "stop" : 1703025578361,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "Sheet2" ]
+      } ],
+      "uid" : "DS10_Graph_feature.Validating Graph Page"
+    } ],
+    "uid" : "src.test.resources.features"
+  } ]
+}

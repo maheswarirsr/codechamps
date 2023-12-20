@@ -5,39 +5,29 @@
 	<groupId>CodeChamps_Dsalgo</groupId>
 	<artifactId>CodeChamps_Dsalgo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 
 	<name>CodeChamps_Dsalgo</name>
 	<url>https://dsportalapp.herokuapp.com/</url>
 
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
+	 <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M5</version>
+					<version>3.2.3</version>
 					<configuration>
-						<includes>
-							<include>*/TestRunner.java</include>
-						</includes>
-					</configuration>
-					<dependencies>
-						<dependency>
-							<groupId>org.apache.maven.surefire</groupId>
-							<artifactId>surefire-junit47</artifactId>
-							<version>3.0.0-M5</version>
-						</dependency>
-					</dependencies>
-				</plugin>
-				<plugin>
-					<groupId>io.qameta.allure</groupId>
-					<artifactId>allure-maven</artifactId>
-					<version>2.10.0</version>
-<!--					<configuration>-->
-<!--						<reportVersion>2.14.0</reportVersion>-->
-<!--					</configuration>-->
-				</plugin>
-
+						<includes>*/TestRunner.java</includes>
+					</configuration>                  
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.apache.maven.surefire</groupId>
+                            <artifactId>surefire-junit47</artifactId>
+                            <version>3.2.2</version>							
+                        </dependency>
+                    </dependencies>
+                </plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
@@ -47,9 +37,66 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
+				<plugin>
+					<groupId>io.qameta.allure</groupId>
+					<artifactId>allure-maven</artifactId>
+					<version>2.10.0</version>
+				</plugin>				
+            </plugins>
+        </pluginManagement>
+    </build>	
+
+<!--	<build>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<version>3.8.0</version>-->
+<!--				<configuration>-->
+<!--					<source>1.8</source>-->
+<!--					<target>1.8</target>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
+<!--			  https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-surefire-plugin</artifactId>-->
+<!--				<version>3.2.3</version>-->
+<!--				<configuration>-->
+<!--					<parallel>methods</parallel>-->
+<!--					<useUnlimitedThreads>true</useUnlimitedThreads>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
+
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-failsafe-plugin</artifactId>-->
+<!--				<version>2.22.0</version>-->
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<goals>-->
+<!--							<goal>integration-test</goal>-->
+<!--							<goal>verify</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<includes>-->
+<!--								<include>parallel.RunCucumberIT.java</include>-->
+<!--							</includes>-->
+<!--							<testFailureIgnore>true</testFailureIgnore>-->
+<!--							<properties>-->
+<!--								<property>-->
+<!--									<name>dataproviderthreadcount</name>-->
+<!--									<value>10</value>-->
+<!--								</property>-->
+<!--							</properties>-->
+<!--						</configuration>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
+
+
 
 	<dependencies>
 		<!--
@@ -79,14 +126,14 @@
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.14.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
+			<artifactId>slf4j-reload4j</artifactId>
 			<version>2.0.9</version>
-			<type>pom</type>
 			<scope>test</scope>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
